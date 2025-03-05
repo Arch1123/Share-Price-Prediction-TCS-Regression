@@ -31,19 +31,19 @@ The regression model was applied to analyze and predict stock prices. Key result
 4. Evaluation: Assessing model accuracy with R-Squared and error metrics
 
 ## 🚀 How to Run the Project
+
 1. Clone this repository:
    ```sh
-   git clone https://github.com/your-username/tcs-share-price-prediction.git
+   git clone https://github.com/Arch1123/Share-Price-Prediction-TCS-Regression.git
    ```
-2. Install required libraries:
-   ```sh
-   pip install pandas numpy matplotlib scikit-learn
-   ```
-3. Run the regression analysis script:
-   ```sh
-   python regression_analysis.py
-   ```
-4. Analyze the output and predictions.
+2. Open the `TCS-Price_Prediction.xlsx` file, which contains the complete dataset and analysis results.
+3. Load the data from `TCS-Price_Prediction.xlsx` using a data analysis tool (e.g., Python, Excel, or Jupyter Notebook).
+4. Perform Exploratory Data Analysis (EDA) to examine stock price trends and distributions.
+5. Conduct correlation analysis using the `Corelation` sheet to understand relationships between stock attributes.
+6. Apply regression modeling using the data from the `TCS1` sheet to predict stock prices.
+7. Evaluate the model's performance using the results in the `Multiple Regression` sheet.
+
+Finally, review the generated statistical results and visualizations to interpret stock price predictions effectively.
 
 ## 📌 Conclusion
 This project successfully applies regression analysis to predict TCS stock prices with a strong correlation and high explanatory power. Future improvements could involve using advanced machine learning techniques like LSTMs or Random Forest Regression.
